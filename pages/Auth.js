@@ -32,7 +32,7 @@ export default function Auth({ navigation }) {
       />
       <TouchableOpacity
         style={styles.authButton}
-        onPress={() => navigation.navigate("HomePage")}
+        onPress={() => navigation.navigate("HomePage", { name, email })}
       >
         <Text style={styles.authButtonText}>Login</Text>
       </TouchableOpacity>
