@@ -1,12 +1,3 @@
-const getRandomColor = () => {
-  const letters = "0123456789ABCDEF";
-  let color = "#";
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-};
-
 export const FeaturedJobs = [
   {
     id: 1,
@@ -15,7 +6,7 @@ export const FeaturedJobs = [
     salary: "$105,000",
     companyLogo: require("../assets/logos/twitter.png"),
     location: "San Francisco, CA",
-    backgroundColor: getRandomColor(),
+    backgroundColor: "#E57373", // Deep red
   },
   {
     id: 2,
@@ -24,7 +15,7 @@ export const FeaturedJobs = [
     salary: "$110,000",
     companyLogo: require("../assets/logos/ibm.png"),
     location: "Armonk, NY",
-    backgroundColor: getRandomColor(),
+    backgroundColor: "#C5E1A5", // Deep green
   },
   {
     id: 3,
@@ -33,7 +24,7 @@ export const FeaturedJobs = [
     salary: "$130,000",
     companyLogo: require("../assets/logos/oracle.png"),
     location: "Redwood City, CA",
-    backgroundColor: getRandomColor(),
+    backgroundColor: "#64B5F6", // Deep blue
   },
   {
     id: 4,
@@ -42,7 +33,7 @@ export const FeaturedJobs = [
     salary: "$120,000",
     companyLogo: require("../assets/logos/cisco.png"),
     location: "San Jose, CA",
-    backgroundColor: getRandomColor(),
+    backgroundColor: "#9575CD", // Deep purple
   },
   {
     id: 5,
@@ -51,7 +42,7 @@ export const FeaturedJobs = [
     salary: "$140,000",
     companyLogo: require("../assets/logos/deepmind.png"),
     location: "London, UK",
-    backgroundColor: getRandomColor(),
+    backgroundColor: "#81C784", // Deep green
   },
   {
     id: 6,
@@ -60,7 +51,7 @@ export const FeaturedJobs = [
     salary: "$115,000",
     companyLogo: require("../assets/logos/spotify.png"),
     location: "Stockholm, Sweden",
-    backgroundColor: getRandomColor(),
+    backgroundColor: "#FFD54F", // Deep yellow
   },
   {
     id: 7,
@@ -69,7 +60,7 @@ export const FeaturedJobs = [
     salary: "$125,000",
     companyLogo: require("../assets/logos/slack.png"),
     location: "San Francisco, CA",
-    backgroundColor: getRandomColor(),
+    backgroundColor: "#4FC3F7", // Deep cyan
   },
   {
     id: 8,
@@ -78,7 +69,7 @@ export const FeaturedJobs = [
     salary: "$110,000",
     companyLogo: require("../assets/logos/salesforce.png"),
     location: "San Francisco, CA",
-    backgroundColor: getRandomColor(),
+    backgroundColor: "#FF8A65", // Deep orange
   },
 ];
 
@@ -139,7 +130,6 @@ export const PopularJobs = [
     companyLogo: require("../assets/logos/netflix.png"),
     location: "Los Gatos, CA",
   },
-
   {
     id: 9,
     name: "HR Specialist",

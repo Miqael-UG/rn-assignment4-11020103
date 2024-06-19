@@ -1,8 +1,8 @@
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import Auth from "./pages/Auth"; // Adjust the path as necessary
-import HomePage from "./pages/HomePage"; // Adjust the path as necessary
+import Auth from "./pages/Auth";
+import HomePage from "./pages/HomePage";
 
 const Stack = createStackNavigator();
 

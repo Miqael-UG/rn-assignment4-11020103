@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Image,
 } from "react-native";
-import HorizontalBarOr from "../components/HorizontalBarOr"; // Adjust the path as necessary
+import HorizontalBarOr from "../components/HorizontalBarOr";
 
 export default function Auth({ navigation }) {
   const [name, setName] = useState("");
